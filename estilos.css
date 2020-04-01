@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(243, 175, 152);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-photo{
+    background-color: white;
+    border-radius: 12px 0px 0px 12px;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+    width: 400px;
+    height: 500px;
+}
+
+.product img{
+    width:100%;
+    border-radius: 12px 0px 0px 12px;
+}
+.content{
+    font-family: 'Vollkorn', serif;
+    color: grey;
+    text-align: center;
+}
+
+.content p{
+    font-family: 'Spartan', sans-serif;
+    font-size: 10;
+}
+
+.content h2{
+    font-weight: normal;
+}
+
+.content h1{
+    font-size: 32;
+    font-weight: normal;
+}
+
+.card-information{
+    background-color:grey;
+    border-radius: 0px 12px 12px 0px;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+    width: 400px;
+    height: 500px;
+    COLOR: white;
+}
+
+.information-content{
+    COLOR: white;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+.information-content h3{
+    font-weight: normal;
+    margin-top: 6px;
+    font-family: 'Oxanium', cursive;
+}
+
+.information-content h2{
+    font-family: 'Vollkorn', serif;
+    font-weight: normal;
+    font-size: 32;
+}
+
+.card-info{
+    font-family: 'Spartan', sans-serif;
+    font-size: 10;
+    color: silver;
+    margin:0;
+}
+
+.btn{
+    color:white;
+    background-color: springgreen;
+    width: 250px;
+    height: 45px;
+    border-radius:20px 20px 20px 20px;
+}
+
+.btn p{
+    width: 250px;
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Spartan', sans-serif;
+    margin:auto;
+}
